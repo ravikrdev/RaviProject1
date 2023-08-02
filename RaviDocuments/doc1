@@ -1,0 +1,117 @@
+git init  (To intilize Empty Git repo)
+
+git config --global user.name "Prasad Polarapu"
+git config --global user.email "devopstraining2015@gmail.com"
+
+git config --list
+
+git config --global --unset user.name
+git config --global --unset user.email
+
+==================
+touch file1
+ls
+git status
+git add file1
+git status
+git commit -m "sample-commit" file1
+git status
+git log
+git show
+git show cid
+
+
+-------------------
+git clone https://github.com/polarapu/batch96.git
+ls
+cd batch96
+touch file1
+ls
+git status
+git add file1
+git status
+git commit -m "sample-commit" file1
+git status
+git log
+git show
+git show cid
+git push
+
+===============
+
+touch file2 file3 file4
+ls
+git status
+git add file2 file3 file4
+or
+git add .
+or
+git add *
+or
+git add -A
+git status
+git commit -m "Smaple commit"
+git status
+git log
+git show
+
+================
+rm file1  (to delete a file)
+ls
+git status
+git add .
+git commit -m "deleted file1"
+git push
+
+================
+mkdir dir1
+ls
+cd dir1
+touch f1 f2
+cd ..
+
+or
+touch dir1/f1 dir1/f2
+
+git status
+
+git add .
+
+or
+
+git add dir1/f1
+git add dir1/f2
+
+git status
+git commit -m "sample commit"
+git push
+
+==========================
+git clone https://github.com/polarapu/batch96.git
+ls
+cd batch96
+ls
+touch prasad
+ls
+git status
+git add .
+git status
+git commit -m "test commit"
+git status
+git push
+
+git push
+remote: Permission to polarapu/batch96.git denied to ravikrdev.
+fatal: unable to access 'https://github.com/polarapu/batch96.git/': The requested URL returned error: 403
+
+
+
+
+
+
+
+
+
+
+
+
